@@ -1,0 +1,50 @@
+-- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
+--
+-- Host: localhost    Database: pta
+-- ------------------------------------------------------
+-- Server version	8.0.33
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `137saaat`
+--
+
+DROP TABLE IF EXISTS `137saaat`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `137saaat` (
+  `COK PROGRAMLI LISE KALKIS` text CHARACTER SET utf8mb4 COLLATE utf8mb4_turkish_ci,
+  `SULTANIYE KALKIS` text CHARACTER SET utf8mb4 COLLATE utf8mb4_turkish_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `137saaat`
+--
+
+LOCK TABLES `137saaat` WRITE;
+/*!40000 ALTER TABLE `137saaat` DISABLE KEYS */;
+INSERT INTO `137saaat` VALUES ('05:10','06:00'),('06:05','06:45'),('06:40','07:00'),('06:55','07:20'),('07:30','07:35'),('07:30','08:00'),('08:20','08:30'),('08:40','09:10'),('09:30','09:30'),('09:30','10:05'),('10:15','11:30'),('10:30','12:00'),('11:45','13:00'),('12:25','14:30'),('13:00','14:45'),('14:15','15:00'),('15:30','15:30'),('16:00','16:00'),('16:30','16:45'),('17:00','17:40'),('17:30','18:00'),('18:30','18:40'),('19:00','19:50'),('19:20','21:00'),('19:50',''),('20:40','');
+/*!40000 ALTER TABLE `137saaat` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-06-20 22:09:18
